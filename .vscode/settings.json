@@ -1,0 +1,9 @@
+{
+    "explorer.compactFolders": false,
+    "editor.formatOnSave": true,
+    "makefile.configureOnOpen": false,
+    "editor.codeActionsOnSave": {
+        "source.organizeImports.biome": "explicit",
+    },
+    "css.lint.unknownAtRules": "ignore"
+}
