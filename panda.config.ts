@@ -4,6 +4,12 @@ export default defineConfig({
 	// Whether to use css reset
 	preflight: true,
 
+	// Use strict token usage
+	strictTokens: true,
+
+	// Use strict property values
+	strictPropertyValues: true,
+
 	// Where to look for your css declarations
 	include: ["./src/components/**/*.{ts,tsx,js,jsx}", "./src/app/**/*.{ts,tsx,js,jsx}"],
 
@@ -14,6 +20,8 @@ export default defineConfig({
 	theme: {
 		extend: {},
 	},
+
+	jsxFramework: "react",
 
 	// The output directory for your css system
 	outdir: "styled-system",
